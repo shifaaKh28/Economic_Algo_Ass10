@@ -83,6 +83,7 @@ pip install abcvoting
 ```bash
 python Q10.py
 The script will:
+```
 -Print all step-by-step decisions
 -Show final committee selections for 𝑘 and 𝑘+1
 -Report if non-monotonicity is detected
