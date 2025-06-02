@@ -78,8 +78,9 @@ but disappeared when increasing to \( k = 3 \).
 1️⃣ Install the required library:
 ```bash
 pip install abcvoting
-
+```
 2️⃣ Run the script:
+```bash
 python Q10.py
 The script will:
 -Print all step-by-step decisions
