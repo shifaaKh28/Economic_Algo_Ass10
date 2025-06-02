@@ -82,6 +82,8 @@ pip install abcvoting
 2️⃣ Run the script:
 ```bash
 python Q10.py
+```
+```bash
 The script will:
 -Print all step-by-step decisions
 -Show final committee selections for 𝑘 and 𝑘+1
