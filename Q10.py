@@ -66,7 +66,7 @@ def custom_equal_shares_verbose(profile, k):
     print(f"\nFinal committee for k={k}: {committee}")
     return committee
 
-def is_monotonic(committee_k, committee_k1):
+def check_monotonicity(committee_k, committee_k1):
     """
     Checks whether the committee for k is a subset of the committee for k+1.
 
@@ -140,7 +140,7 @@ for example in examples:
     committee_k1 = custom_equal_shares_verbose(profile, k + 1)
 
     # Check monotonicity between k and k+1
-    if not is_monotonic(committee_k, committee_k1):
+    if not check_monotonicity(committee_k, committee_k1):
         print(f"⚠️ Found non-monotonicity in {example['name']} ")
         print(f"------------------------------------------------------------------------------ ")
        
