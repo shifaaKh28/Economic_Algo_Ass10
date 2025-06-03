@@ -52,6 +52,9 @@ and to avoid hidden tie-breaking mechanisms.
 
 ✅ **Non-monotonicity detected**: candidates {0, 2} were selected for \( k = 2 \) but disappeared when increasing to \( k = 3 \).
 
+![Section A Example](images/Screenshot 2025-06-03 103713.png)
+![Section A Example](images/Screenshot 2025-06-03 103726.png)
+![Section A Example](images/Screenshot 2025-06-03 103737.png)
 ---
 
 ### **Section B**: Non-Monotonicity Without Tie-Breaking
@@ -70,6 +73,9 @@ and to avoid hidden tie-breaking mechanisms.
 
 ✅ **Non-monotonicity detected without tie-breaking**: candidate {1} was uniquely the cheapest and selected for \( k = 2 \),  
 but disappeared when increasing to \( k = 3 \).
+![Section B Example](images/Screenshot 2025-06-03 103750.png)
+![Section B Example](images/Screenshot 2025-06-03 103803.png)
+![Section B Example](images/Screenshot 2025-06-03 103809.png)
 
 ---
 
